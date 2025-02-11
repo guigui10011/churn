@@ -52,4 +52,4 @@ jobs:
 
     - name: Deploy to Elastic Beanstalk
       run: |
-        eb deploy churn-gc
+        eb deploy Churn-GC-env

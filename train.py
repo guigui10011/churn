@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
 # comment 
-# new comment ++++
+# new comment +++++
 
 # 📂 Charger le dataset CSV
 file_path = "data/customer_churn.csv" 
