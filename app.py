@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import joblib
 import numpy as np
 
-model = joblib.load("models/model_sklearn.pkl")
+model = joblib.load("data/model_sklearn.pkl")
 
 app = Flask(__name__)
 

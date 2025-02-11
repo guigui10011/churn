@@ -39,6 +39,6 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 # SAVE-LOAD using joblib 
 # save
-joblib.dump(model, "models/model_sklearn.pkl") 
+joblib.dump(model, "data/model_sklearn.pkl") 
 # load
 # clf2 = joblib.load("model.pkl")

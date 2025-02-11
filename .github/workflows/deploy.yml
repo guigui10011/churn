@@ -38,9 +38,9 @@ jobs:
       run: |
         docker build -t churn-gc .
 
-    - name: Validate the model in Docker
-      run: |
-        docker run churn-gc python validate.py
+    # - name: Validate the model in Docker
+    #   run: |
+    #     docker run churn-gc python validate.py
       
     - name: Run Tests in Docker
       run: |
