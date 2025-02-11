@@ -36,20 +36,20 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t Churn-GC .
+        docker build -t churn-gc .
 
     - name: Validate the model in Docker
       run: |
-        docker run Churn-GC python validate.py
+        docker run churn-gc python validate.py
       
     - name: Run Tests in Docker
       run: |
-        docker run Churn-GC pytest -v
+        docker run churn-gc pytest -v
 
     - name: Initialize Elastic Beanstalk Application
       run: |
-        eb init -p docker Churn-GC --region eu-west-1
+        eb init -p docker churn-gc --region eu-west-1
 
     - name: Deploy to Elastic Beanstalk
       run: |
-        eb deploy Churn-GC
+        eb deploy churn-gc
