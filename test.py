@@ -2,7 +2,9 @@ import requests
 import json
 
 # Définir l'URL de l'API
+# URL = "http://127.0.0.1:5000/predict"
 URL = "http://127.0.0.1:5000/predict"
+
 
 # Données d'entrée pour le test
 test_data = {
