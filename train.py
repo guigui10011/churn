@@ -9,6 +9,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# comment 
 
 # 📂 Charger le dataset CSV
 file_path = "data/customer_churn.csv" 
