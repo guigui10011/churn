@@ -6,9 +6,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 # comment 
 # new comment +++
 
